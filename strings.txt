@@ -1,0 +1,13 @@
+# String file for PlayAPE plugin
+
+PLUGIN_PLAYAPE
+	EN	Play APE
+
+PLUGIN_PLAYAPE_DESC
+	EN	Play APE with embedded CUE support and scanner-safe registration
+
+PLUGIN_PLAYAPE_EMBEDDED_CUE
+	EN	Embedded cuesheet
+
+PLUGIN_PLAYAPE_EMBEDDED_CUE_DESC
+	EN	Split APE files that contain a CUESHEET tag into virtual tracks. A rescan is needed after changing this setting.

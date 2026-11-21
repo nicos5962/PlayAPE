@@ -1,0 +1,10 @@
+[% PROCESS settings/header.html %]
+
+    [% WRAPPER setting title="PLUGIN_PLAYAPE_EMBEDDED_CUE" desc="PLUGIN_PLAYAPE_EMBEDDED_CUE_DESC" %]
+        <select class="stdedit" name="pref_embeddedCue" id="embeddedCue">
+            <option [% IF prefs.pref_embeddedCue %]selected [% END %]value="1">[% "YES" | string %]</option>
+            <option [% IF !prefs.pref_embeddedCue %]selected [% END %]value="0">[% "NO" | string %]</option>
+        </select>
+    [% END %]
+
+[% PROCESS settings/footer.html %]

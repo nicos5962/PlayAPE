@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<extension>
+    <name>PLUGIN_PLAYAPE</name>
+    <module>Plugins::PlayAPE::Plugin</module>
+    <version>1.0</version>
+    <description>PLUGIN_PLAYAPE_DESC</description>
+    <creator>nicos</creator>
+    <defaultState>enabled</defaultState>
+    <importmodule>Plugins::PlayAPE::Importer</importmodule>
+    <icon>plugins/PlayAPE/html/images/icon.svg</icon>
+    <optionsURL>plugins/PlayAPE/settings/basic.html</optionsURL>
+    <type>2</type>
+    <targetApplication>
+        <id>SlimServer</id>
+        <minVersion>7.7</minVersion>
+        <maxVersion>*</maxVersion>
+    </targetApplication>
+</extension>
